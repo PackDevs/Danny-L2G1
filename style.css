@@ -38,12 +38,13 @@ img{
   
    /* text-align: right; */
     width: 150px;
-    height: 50px;
+    height: 30px;
     color: white;
     background-color: #ee7b11;
     margin-top: -250px;
     margin-left: 830px;
     border-radius: 30px;
+    padding-top: 15px;
 }
 .sidebar a h2{
     /* visibility: hidden; */
@@ -53,7 +54,7 @@ img{
     color: white;
     text-decoration: none;
     width: 200px;
-    height: 60px;
+    height: 50px;
     background-color: #ee7b11;
     border-radius: 20px;
     margin-left: 40px;
@@ -85,6 +86,8 @@ img{
     margin-top: 20px;
     margin-left: 500px;
     border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 .paragraph h1 b{
     color: #ee4422ee;
@@ -114,6 +117,7 @@ img{
     
 }
 .right{
+    
     display: grid ; 
     grid-template-columns: repeat(3,1fr);
     margin-left: 300px;
@@ -133,24 +137,26 @@ img{
 .mainpage{
     background-color: black;
     border: solid black;
-    margin-top: -750px;
+    margin-top: -700px;
     /* background-color: #0000; */
 }
 .sidebar{
     margin-top: 500px;
+    
 }
-.sidebar a h1{
-
+.sidebar a {
+    size: 200px;
+text-decoration: none;
 }
 .left a{
-    padding-bottom: 45px;
+    padding-bottom: 45px; 
     text-align: center;
     margin-left: 30px;
     margin-top: 15px;
     border:solid #ee7b11;
     background-color:#ee7b11 ;
     width: 160px;
-    height: 20px;
+    height: 7px;
     color: white;
     margin-top: 5px;
     text-decoration: none;
@@ -164,9 +170,9 @@ img{
     border:solid #ee7b11;
     background-color:#ee7b11 ;
     width: 160px;
-    height: 20px;
+    height: 7px;
     color: white;
-    margin-top: 15px;
+    margin-top: 5px;
     text-decoration: none;
     border-radius: 30px;
     text-align: center;
