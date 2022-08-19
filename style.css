@@ -6,11 +6,11 @@
     
     } 
 .mainpage{
-    margin-left: 100px;
+    margin-left: 10px;
     position: fixed;
     background-color: black;
-    width: 250px;
-    height: 230px;
+    width: 310px;
+    height: 530px;
 }
 
 .sidebar img{
@@ -21,8 +21,9 @@
     border-radius: 30px;
 }
 .mainpage img{
-    height: 120px;
-    width: 80px;
+    margin-top: 250px;
+    height: 150px;
+    width: 110px;
 } 
 
  .navabars{ background-color: #126cf2;
@@ -103,10 +104,10 @@
         .paragraph h5 b{
             color: #ee4422ee;  }
             
-        .paragraph h5{
+        .paragraph h5 {
             margin-left: 90px;
             width: 155px;
-            margin-top: -110px;
+            margin-top: -200px;
             color: white;
         }
    .paragraph h6{
@@ -116,6 +117,18 @@
      width: 20px;
      margin-left: 100px;
    }
+   .paragraph p{
+    position: fixed;
+    margin-top: -160px;
+    border: solid brown;
+    width: 250px;
+    height: 140px;
+    color: white;
+    margin-left: 10px;
+
+   }
+
+   
 
 .home{ 
     text-align:center; 
