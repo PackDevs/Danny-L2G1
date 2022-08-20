@@ -10,7 +10,7 @@
     position: fixed;
     background-color: black;
     width: 310px;
-    height: 530px;
+    height: 430px;
 }
 
 .sidebar img{
@@ -27,7 +27,7 @@
 } 
 
  .navabars{ background-color: #126cf2;
-    height:100px;
+    height:80px;
     width:100%;
      grid-template-columns:repeat(5, 1fr); 
     text-align: center; 
@@ -88,6 +88,7 @@
          text-align: center;}
         
          .sidebar a {
+            margin-top: 50px;
             position: fixed;
              /* visibility: hidden;   */
              padding-top: 20px;
@@ -101,25 +102,25 @@
             border-radius: 10px;
             margin-left: -1px;}
     
-        .paragraph h5 b{
+         h5 b{
             color: #ee4422ee;  }
             
-        .paragraph h5 {
+         h5 {
             margin-left: 90px;
             width: 155px;
-            margin-top: -200px;
+            margin-top: -280px;
             color: white;
         }
-   .paragraph h6{
+    h6{
      border: solid #126cf2;
      margin-top: -120px;
      color: white;
      width: 20px;
-     margin-left: 100px;
+     margin-left: 110px;
    }
-   .paragraph p{
+    p{
     position: fixed;
-    margin-top: -160px;
+    margin-top: -10px;
     border: solid brown;
     width: 250px;
     height: 140px;
@@ -127,8 +128,17 @@
     margin-left: 10px;
 
    }
+   .bottom {
+    margin-left: 40px;
+    margin-top: 360px;
+    color: #ee7b11;
+    border: solid blueviolet;
+   }
 
-   
+   .bottom p{
+
+    margin-top: 400px;
+   }
 
 .home{ 
     text-align:center; 
@@ -138,10 +148,10 @@
     height: 30px;
     color: white;
     background-color: #ee7b11;
-    margin-top: -118px;
-    margin-left: 30px;
+    margin-top: -58px;
+    margin-left: 250px;
     border-radius: 10px;
-    padding-top: 5px;
+    padding-top: 1px;
 }
 
 }
