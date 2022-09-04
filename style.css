@@ -7,6 +7,9 @@
     height: 150px;
     width: 1500px;
 }
+body{
+   background-color: #ece2e2;
+}
 .left{
     margin-top: 25px;
     padding-left: 10px;
@@ -30,6 +33,7 @@
 }
 
 .right a{
+   padding-top: -10px;
     text-align: center;
 color: white;
 text-decoration: none;
@@ -59,11 +63,16 @@ background-color: #ee7b11;
         height: 60px;
     }
     .sidebar{
+      grid-gap:100px;
         margin-left: 80px;
         margin-top: 200px;
     }
+    a:hover {
+      visibility: hidden;
+    }
 
     .sidebar a h1{
+   
         color: white;
         margin-top: -70px;
         text-decoration: none;
@@ -122,7 +131,68 @@ background-color: #ee7b11;
      .mainpage h2 b{
         color: orangered
      }
+     .home{
+      /* margin-bottom: -100px; */
+      margin-left: 1500px;
+      color: white;
+      border: solid#bb5f0b;
+      width: 120px;
+      text-align: center;
+      padding-top: 10px;
+      border-radius: 25px;
+      height: 30px;
+      background-color:#bb5f0b;
+     }
+     .bottom{
+      color: orangered;
+      background-color: black;
+      margin-top: 182px;
+      margin-left: 599px;
+      padding-left: 20px;
+      border: solid black;
+      width: 956px;
+      
+     }
+     .pragraph i{
+      border-radius: 5px;
+      background-color: #ee7b11;
+      color: white;
+      margin-left: 700px;
+     
+     }
+     .bottom p{
+      color: white;
+     }
 
      .pragraph{
+      height: 800px;
+      position: fixed;
         margin-top: -400px;
+     }
+
+     .inform{
+      position: fixed;
+      padding-top:10px;
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 1050px;
+      border: solid #d48f09;
+      width: 180px;
+      height: 40px;
+      color: white;
+      background-color: #d48f09;
+      border-radius: 30px;
+     }
+
+     .email{
+      margin-top: 100px;
+      position: fixed;
+      margin-left: 1000px;
+      border: solid #fcd9a5;
+      width: 300px;
+      height: 50px;
+      border-radius: 20px;
+      text-align: center;
+      background-color: #fcd9a5;
+      padding-top: 10px;
      }
